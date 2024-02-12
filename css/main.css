@@ -1,0 +1,42 @@
+header{
+    background-image: url(../img/header-bg.jpg.jpg);
+    background-color: #759CDA;
+    background-blend-mode: multiply;
+    height: 95vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* background-position: center; */
+    padding: 20px 10px 0px 30px;
+}
+
+body{
+    /* We can use line-height */
+    margin: 0;
+}
+
+li{
+    display: inline;
+    padding: 15px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+    position: center;
+}
+
+li:hover{
+    text-decoration-line: underline;
+    cursor: pointer;
+    text-underline-offset: 10px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+}
